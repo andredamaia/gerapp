@@ -1,66 +1,38 @@
-form {
+.form-login {
     text-align: left;
 
-    label {
-        display: block;
-        margin-bottom: 1rem;
-        color: #fff;
-        font-size: 1.2rem;
-        text-align: left;
-    }
-
-    input {
-        height: 6rem;
-        line-height: 6rem;
-        font-size: 1.4rem;
-        padding: 0 1.5rem;
-        border-radius: 4px;
-        margin-bottom: 1.5rem;
-        width: 100%;
-        border: none;
-    }
-
-    textarea {
-        height: 16rem;
-        line-height: 1.8rem;
-        font-size: 1.4rem;
-        padding: 1.5rem;
-        border-radius: 4px;
-        margin-bottom: 1.5rem;
-        width: 100%;
-        border: none;
-    }
-
-    .file {
-        background: #111;
-        color: #fff;
-        font-weight: 600;
-        border-radius: 4px;
-        display: flex;
-        align-items: center;
-        padding: 0 3rem;
-        height: 6rem;
-        font-size: 1.6rem;
-        justify-content: center;
-        cursor: pointer;
-
-        svg {
-            width: 2rem;
-            margin-right: 1.5rem;
+    .input-block {
+        position: relative;
+        
+        label {
+            display: block;
+            margin-bottom: 1rem;
+            color: var(--fuba-text-color);
+            font-size: 1.2rem;
+            text-align: left;
+            margin-bottom: 0;
         }
-    }
-
-    button {
-        display: inline-block;
-        padding: 0 5rem;
-        font-size: 1.6rem;
-        height: 6rem;
-        line-height: 6rem;
-        border: none;
-        cursor: pointer;
-        border-radius: 4px;
-        background: #74ab72;
-        color: #fff;
-        font-weight: 600;
+    
+        input {
+            height: 4rem;
+            line-height: 4rem;
+            font-size: 1.6rem;
+            padding: 0 1.5rem 0 0;
+            border-radius: 0;
+            margin-bottom: 1.5rem;
+            width: 100%;
+            border-bottom: 1px solid var(--fuba-darkbg-color);
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            color: #b19181;
+        }
+    
+        i {
+            cursor: pointer;
+            position: absolute;
+            top: 2rem;
+            right: 1rem;
+        }
     }
 }

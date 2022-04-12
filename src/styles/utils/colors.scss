@@ -1,0 +1,140 @@
+:root {
+	
+
+	--fuba-background-color:#F8DC59;
+
+	--fuba-text-color: #662400;
+
+	--fuba-darkbg-color: #662400;
+	
+	--fuba-text-content-color:#404040;
+
+	--fuba-button-color:#E6E6E6;
+
+	--fuba-mini-button-color: #F8DC59;
+
+	--fuba-highlight-color: #E6E6E6;
+
+	--fuba-active-button-color: #F8DC59;
+
+	--fuba-save-button-color: #057980;
+	
+	--fuba-del-button-color: #c433a1;
+		
+	--fuba-active-field-color: #F9E9A4;
+	
+	--fuba-background-content-color: #FFFFFF;
+	
+	--fuba-button-color-shadow: #BFBFBF;
+	
+	--fuba-button-profile-shadow: #80523A;
+	
+	--fuba-redcolor: #a40000;
+  
+  	--fuba-whitecolor: #FFFFFF;
+  	
+    --fuba-blackcolor: #000000;
+    
+    --fuba-darkgraycolor: #555555;
+    
+    --fuba-altbg-color: #E6E6E6;
+    
+    --box-bg: #CCCCCC;
+    
+    --gray-color: #888888;
+}
+
+.txtwhite{
+	color: var(--fuba-whitecolor);
+}
+
+.txtblack{
+	color: var(--fuba-blackcolor);
+}
+
+.txtred{
+	color: var(--fuba-redcolor);
+}
+
+.txtdarkgray{
+	color: var(--fuba-darkgraycolor);
+}
+
+.txtgray{
+	color: var(--gray-color);
+}
+
+.bgwhite{
+	background-color: var(--fuba-whitecolor);
+}
+.bgblack{
+	background-color: var(--fuba-blackcolor);
+}
+
+.bgred{
+	background-color: var(--fuba-redcolor);
+}
+
+.bgfuba{
+	background-color: var(--fuba-background-color);
+}
+
+.bgbuttonsave{
+	background-color: var(--fuba-save-button-color);
+}
+
+.bgbuttondel{
+	background-color: var(--fuba-del-button-color);
+}
+
+.bgdarkgray{
+	background-color: var(--fuba-darkgraycolor);
+}
+
+.bgbutton{
+	background-color: var(--fuba-button-color);
+}
+
+.bgfuba{
+	background-color: var(--fuba-background-color);
+}
+
+// .bglogin{
+// 	background-color: var(--fuba-background-color);
+// 	background: url('../images/fubabg.jpg') no-repeat;
+// 	background-size: 100% 100%;
+// }
+
+.bgpopupcontent{
+	background-color: var(--fuba-background-content-color);
+}
+
+.button {
+	background-color: var(--fuba-button-color);
+	box-shadow: 0.2px 0.3px 1px 0.5px var(--fuba-button-color-shadow);
+}
+
+.buttonSave{
+	background-color: var(--fuba-active-button-color);
+}
+
+.buttonmenu:hover{
+	box-shadow: 0.1em 0.1em 0.1em  var(--fuba-button-profile-shadow);
+
+} 
+.btAddPhoto:hover{
+	box-shadow: 0.1em 0.1em 0.1em  var(--fuba-button-color-shadow);
+}
+
+.content {
+	color: var(--fuba-text-content-color);
+}
+
+input:disabled, select:disabled, textarea:disabled {
+    color: var(--fuba-text-content-color);
+    background-color: var(--fuba-background-content-color);
+}
+
+.popbox {
+    background-color: rgba(0,0,0,0.5);
+}

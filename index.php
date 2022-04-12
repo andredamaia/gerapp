@@ -14,6 +14,7 @@
         <meta name="theme-color" content="#111111" />
 
         <link rel="stylesheet" href="<?php echo $pageurl; ?>/public/index.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
 
         <meta property="og:type" content="website" />
         <meta property="og:title" content="<?php echo $title; ?>" />
@@ -29,8 +30,7 @@
     <body id="<?php echo $page; ?>" class="<?php echo $subpage; ?>">
         <div class="webapp">
             <?php include('components/preload.php'); ?>
-            
-            <?php include('components/header.php'); ?>
+        
 
             <div asscroll-container>
                 <div>
@@ -40,7 +40,6 @@
                         }
                     ?>
                 
-                    <?php include('components/footer.php'); ?>
                 </div>
             </div>
         </div>

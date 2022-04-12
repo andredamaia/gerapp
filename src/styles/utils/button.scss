@@ -1,14 +1,23 @@
-.button-default {
-    height: 4rem;
-    line-height: 4rem;
-    font-size: var(--text-16);
+.button-brown {
+    display: block;
+    padding: 0 2rem;
+    font-size: 1.4rem;
+    height: 5rem;
+    line-height: 5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    background: var(--fuba-text-color);
+    color: #fff;
     font-weight: 600;
-    color: #111;
-    background: #fff;
-    padding: 0 3rem;
+    text-align: center;
+    text-transform: uppercase;
     transition: all .3s ease-in-out;
-    
+    width: 100%;
+
     &:hover {
-        opacity: .6;
+        border: 1px solid var(--fuba-text-color);
+        color: var(--fuba-text-color);
+        background: var(--fuba-whitecolor);
     }
 }

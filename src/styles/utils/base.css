@@ -1,0 +1,123 @@
+/* ------- DASH -------- */
+.dash {
+    position: relative;
+    height: 100vh;
+}
+
+.dash .internas-header {
+    background: var(--fuba-darkbg-color);
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.dash .internas-footer {
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: var(--fuba-whitecolor);
+}
+
+.dash-content {
+    padding: 18rem 0 0;
+    position: relative;
+}
+
+.dash-options {
+    padding: 18rem 0 0;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+}
+
+.dash-options a {
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--fuba-mini-button-color);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    font-size: 1.8rem;
+    transition: all .3s ease-in-out;
+    position: relative;
+}
+
+.dash-options a strong {
+    color: var(--fuba-text-color);
+}
+
+.dash-options a:hover {
+    background: var(--fuba-darkbg-color);
+    text-decoration: none;
+}
+
+.dash-options a:hover strong {
+    color: var(--fuba-background-color);
+}
+
+.dash-options a:hover svg {
+    fill: var(--fuba-background-color);
+}
+
+.dash-options a svg {
+    margin-bottom: 2.5rem;
+    fill: var(--fuba-text-color);
+}
+
+.dash-options a span {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    font-size: 1.8rem;
+    color: var(--fuba-text-color);
+}
+
+.dash-options a:hover span {
+    color: var(--fuba-background-color);
+}
+
+.dash-content h2 {
+    margin-bottom: 4.5rem;
+}
+
+.dash-content strong {
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    color: var(--fuba-text-color);
+    margin-bottom: 3.5rem;
+    display: block;
+}
+
+.dash-content p {
+    margin-bottom: 3.5rem;
+    line-height: 2.2rem;
+    padding-right: 4rem;
+}
+
+.dash-content p strong {
+    font-style: italic;
+    display: inline-block;
+    margin: 0;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+}
+
+.dash-content svg {
+    position: absolute;
+    right: 5rem;
+    top: 18rem;
+}

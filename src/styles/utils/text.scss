@@ -1,12 +1,12 @@
-h6 {
-    font-size: var(--title-32);
-    color: var(--color-dark);
-    line-height: 3.2rem;
+h2 {
+    font-size: 5rem;
+    line-height: 6rem;
+    color: var(--fuba-text-color);
+    opacity: 1 !important;
 }
 
 p {
-    font-size: var(--text-16);
-    line-height: 2.6rem;
-    color: var(--color-light);
-    margin-bottom: 3rem;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: var(--fuba-text-color);
 }

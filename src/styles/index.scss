@@ -1,7 +1,7 @@
 @import './components/preload.scss';
-@import './components/header.scss';
-@import './components/footer.scss';
 @import './components/menu.scss';
+
+@import './utils/base.css';
 
 @import './utils/reset.scss';
 @import './utils/base.scss';
@@ -10,6 +10,6 @@
 @import './utils/animate.scss';
 @import './utils/form.scss';
 
-@import './pages/home.scss';
-@import './pages/contato.scss';
-@import './pages/404.scss';
+@import './utils/grid.scss';
+@import './utils/size.scss';
+@import './utils/colors.scss';
