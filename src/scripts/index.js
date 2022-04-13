@@ -5,6 +5,7 @@ import Menu from './components/menu'
 
 import './pages/home'
 import './pages/dash'
+import './pages/dados-pessoais'
 
 new Load({ domElement: document.querySelector('.preload') })
 new Menu({ domElement: document.querySelector('.menu') })
